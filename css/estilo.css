@@ -9,3 +9,34 @@
     padding: 0;
     margin: 0;
 }
+
+/*Empiezo a llamar a los selectores*/
+
+/*Empieza el header*/
+header{
+    border: solid blue,
+    
+
+}
+header h1 /*mi nombre*/{
+    color:rgb(238,239,240);
+}
+header h2{
+    color: rgb(201,59,75);
+}
+header div .button{
+    background-color: rgb(201,59,75);
+}
+.inicio{
+    color: rgb(201,59,75);
+}    
+/*Termina el header*/
+
+body{
+    background-color:rgb(4,11,21);
+    color:#191919;
+    font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
