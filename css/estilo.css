@@ -40,3 +40,31 @@ body{
     /*display: flex;*/
     /*flex-direction: column;*/
 }
+.hero h2{
+    padding-top: 150px;
+    margin-bottom: 35px;
+    color:white;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.hero i{
+    color:rgb(186,139,36);
+}
+.profesion h1{
+    color:wheat;
+    margin-left: 50px;
+    margin-bottom:35px ;
+}
+.nombre h1{
+    color: rgb(198,1,44);
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
+.parrafohero p{
+ color: rgb(135,137,139);
+ margin-left: 50px;
+ margin-bottom: 35px;
+}
+
+
+   
