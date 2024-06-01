@@ -202,7 +202,21 @@ body{
     padding-bottom: 20px;
     margin-left: 40px;
     text-decoration-line: underline;
-    text-decoration-color:rgb(114,9,40);
+    text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
+    
         
+}
+.añocursada h2{
+    color:white;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.carrera p{
+    font-weight: bold;
+    color:white;
+    font-size:20px ;
+    margin-bottom: 15px;
+    margin-left: 20px;
 }
