@@ -97,8 +97,19 @@ body{
     text-decoration-line: underline;
     text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
-    
-    
+    /*Falta terminar*/
+}
+.contenedor-hijo-directo h3{
+    color:white;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-bottom: 35px;
+    font-size: 30px;
+}
+.highlight{
+    color: #900824;
+    padding: 2px 4px;
+    border-radius: 5px;
 }
 
 
