@@ -229,3 +229,33 @@ body{
     border: 5px solid grey;
     margin: 20px;
 }
+.porfolio h2{
+    color:rgb(205,207,208);
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(114,9,40);
+    text-decoration-thickness: 3px;
+
+}
+.screenshot-porfolio img{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    width: 1200px;
+    height: 400px;
+
+}
+.link-porfolio a,p{
+    color:white;
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin: 20px;
+    text-decoration-line: none;
+}
+
