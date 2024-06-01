@@ -24,6 +24,7 @@ header{
 header h1 /*mi nombre*/{
     color:rgb(238,239,240);
     flex-grow: 8;
+    font-size: 25px;
 }
 header h2{ /*CC*/
     color: rgb(201,59,75);
@@ -280,4 +281,55 @@ body{
 .datos-contacto i{
     color:grey;
     font-size: 25px;
+    /*ver problema del icono mail y tel*/
 }
+
+/*Formulario*/
+/*Falta estilar form*/
+
+.formulario label{ /*Nombre*/
+    border: 2px solid rgb(14, 20, 28);
+    border-radius: 5px;
+    color:rgb(14,20,28);
+}
+[type=text]{
+    padding: 10px 20px;
+    margin: 10px;
+    border: 2px solid rgb(14, 20, 28);
+    border-radius: 5px;
+    color:rgb(14,20,28);
+
+}
+.formulario button{
+    border:none;
+    padding: 15px 20px;
+    margin:15px;
+    font-size: small;
+    border-radius: 5px; 
+    
+}
+.final h1{
+    color:rgb(201, 59, 75);
+    flex-grow: 8;
+    font-size: 25px;
+    justify-content: center;
+
+
+}
+.final h2{
+    color:rgb(246,247,247);
+    text-align: center;
+    font-size: 25px;
+}
+.iconos-footer i{
+    color: white;
+    margin-left: 24px;
+    margin-bottom: 35px;
+    font-size: x-large;
+    padding: 15px 15px;
+    text-align: center;
+    flex-grow: 8;
+    
+}
+
+
