@@ -258,4 +258,26 @@ body{
     margin: 20px;
     text-decoration-line: none;
 }
-
+.contacto h2{
+    color:rgb(205,207,208);
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    text-decoration-line: underline;
+    text-decoration-color: rgb(114,9,40);
+    text-decoration-thickness: 3px;
+}
+.datos-contacto ul,li{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin: 20px;
+    font-weight: bold;
+}
+.datos-contacto i{
+    color:grey;
+    font-size: 25px;
+}
