@@ -194,8 +194,15 @@ body{
     font-size:20px;
     padding: 3px;
 }
-    
-
-
-
-   
+.resumen h3{
+    color:rgb(205,207,208);
+    font-size: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-left: 40px;
+    text-decoration-line: underline;
+    text-decoration-color:rgb(114,9,40);
+    text-decoration-thickness: 3px;
+        
+}
