@@ -14,21 +14,27 @@
 
 /*Empieza el header*/
 header{
+    display: flex;
+    
     
     
 
 }
 header h1 /*mi nombre*/{
     color:rgb(238,239,240);
+    flex-grow: 8;
 }
-header h2{
+header h2{ /*CC*/
     color: rgb(201,59,75);
+    flex-grow: 8;
 }
 header div .button{
     background-color: rgb(201,59,75);
+    flex-grow: 8;
 }
 .inicio{
     color: rgb(201,59,75);
+    flex-grow: 8;
 }    
 /*Termina el header*/
 
@@ -37,8 +43,7 @@ body{
     color:#191919;
     font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
-    /*display: flex;*/
-    /*flex-direction: column;*/
+    
 }
 .hero h2{
     padding-top: 150px;
