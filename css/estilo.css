@@ -14,7 +14,7 @@
 
 /*Empieza el header*/
 header{
-    border: solid blue,
+    
     
 
 }
@@ -66,5 +66,18 @@ body{
  margin-bottom: 35px;
 }
 
+.iconosredes i{
+    color: white;
+    margin-left: 24px;
+    margin-bottom: 35px;
+    font-size: x-large;
+    padding: 15px 15px;
+    
+}
+/*Falta estilar el boton contactane*/
+
+
+
+    
 
    
