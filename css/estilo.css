@@ -171,11 +171,30 @@ body{
     color: white;
 
 }
-.tipo-servicios h3,h2{
+.serviciouno h2{ /*Velocidad y optim*/
     color:rgb(205,207,208);
     font-size: 30px;
+    margin-bottom: 5px;
+    }
+.serviciodos h2{ /*Branding*/
+    color:rgb(205,207,208);
+    font-size: 30px;
+    margin-bottom: 5px;
 }
 
+.serviciotres h2{ /*SEO & POSIC*/
+    color:rgb(205,207,208);
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.serviciouno,.serviciodos,.serviciotres{
+    color:white;
+    margin-bottom: 35px;
+    font-size:20px;
+    padding: 3px;
+}
+    
 
 
 
