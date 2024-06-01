@@ -120,6 +120,21 @@ body{
     text-indent: 10px;
     text-align: left;
 }
+/*Llamo a mi clase padre y le aplico el display flex*/
+
+.Contenedor listas{
+    display: flex;
+}
+    
     
 
-   
+
+/*Todas las clases hijas tengan las mismas propiedades*/
+li{
+    list-style-type: none;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    color:white;
+}
+
