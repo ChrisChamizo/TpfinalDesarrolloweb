@@ -87,6 +87,7 @@ body{
 
 .contenedor-hijo-directo{
     display: flex;
+    
 }
 .contenedor-hijo-directo h2 /*Sobre mi*/{
     padding-bottom: 20px;
@@ -124,11 +125,7 @@ body{
 /*Trabajo en las listas e imagen*/
 
 /*Llamo a mi clase padre y le aplico el display flex*/
-.contenedor-hijo-directo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 .contenedor-listas{
@@ -291,8 +288,9 @@ body{
     border: 2px solid rgb(14, 20, 28);
     border-radius: 5px;
     color:rgb(14,20,28);
+    padding: 20px;
 }
-[type=text]{
+input[type=text]{
     padding: 10px 20px;
     margin: 10px;
     border: 2px solid rgb(14, 20, 28);
