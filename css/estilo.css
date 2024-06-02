@@ -15,9 +15,6 @@
 /*Empieza el header*/
 header{
     display: flex;
-    
-    
-    
 
 }
 
@@ -47,6 +44,29 @@ body{
     font-size: 20px;
     
 }
+
+.hero{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contenedor-contenido-imagen{
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    width: 50%;
+}
+
+.fotopersonal img{
+    width: 50%; /*ancho de la imagen*/
+    margin-left: 20px; /*Espacio entre la imagen y el contenido*/
+    text-align: right;
+}
+
 .hero h2{
     padding-top: 150px;
     margin-bottom: 35px;
@@ -105,12 +125,7 @@ body{
     width:auto;
     height: auto;
 }
-.Contenedor-imagen img{
-    width: 100%;
-    height: 50%;
-    
-    
-}
+
 
 .sobre-mi h2 /*Sobre mi*/{
     padding: 20px;
