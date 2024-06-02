@@ -15,6 +15,7 @@
 /*Empieza el header*/
 header{
     display: flex;
+    align-items: center;
    
 
 }
@@ -23,10 +24,12 @@ header h1 /*mi nombre*/{
     color:rgb(238,239,240);
     flex-grow: 8;
     font-size: 25px;
+    
 }
 header h2{ /*CC*/
     color: rgb(201,59,75);
     flex-grow: 8;
+    
 }
 header div .button{
     background-color: rgb(201,59,75);
@@ -61,43 +64,55 @@ body{
 
 .hero-content{
     width: 50%;
+
 }
+
 
 .fotopersonal img{
     width: 650px; /*ancho de la imagen*/
     height: 650px; /*alto de la imagen*/
-    margin-left: 800px; /*Espacio entre la imagen y el contenido*/
+    margin-left: 500px; /*Espacio entre la imagen y el contenido*/
     padding: 40px;
     
     
 }
 
-.hero h2{
+.hero h2{ /*Hola, soy...*/
+    color:white;
     padding-top: 150px;
     margin-bottom: 35px;
-    color:white;
-    font-size: 20px;
-    margin-left: 50px;
+    margin-left: -280px;
+    font-size: 30px;
+    text-align: center;
 }
+
 .hero i{
     color:rgb(186,139,36);
 }
-.profesion h1{
+.profesion h1{ /*diseñador web*/
     color:wheat;
-    margin-left: 50px;
+    margin-left: 185px;
     margin-bottom:35px;
     font-size: 40px;
+    
 }
+
 .nombre h1{ /*CHRISTIAN CHAMIZO*/
     color: rgb(198,1,44);
-    margin-left: 50px;
+    margin-left: 185px;
     margin-bottom: 35px;
-    font-size: 50px;
+    font-size: 80px;
+    margin-right: 20px;
+   
+   
 }
 .parrafohero p{
  color: rgb(135,137,139);
- margin-left: 50px;
- margin-bottom: 35px;
+ margin-left: 180px;
+ margin-bottom: 13px;
+ font-size: 30px;
+ margin-top: -50px;
+ 
  
 }
 
@@ -106,11 +121,14 @@ body{
     color: white;
     margin-left: 24px;
     margin-bottom: 35px;
-    font-size: x-large;
+    font-size:30px;
     padding: 15px 15px;
     
 }
-/*Falta estilar el boton contactane*/
+.BotonContactame button{
+    display: flex;
+    
+}
 
 /*Se estila la segunda seccion*/
 
