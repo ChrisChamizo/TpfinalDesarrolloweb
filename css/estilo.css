@@ -15,6 +15,7 @@
 /*Empieza el header*/
 header{
     display: flex;
+   
 
 }
 
@@ -30,6 +31,7 @@ header h2{ /*CC*/
 header div .button{
     background-color: rgb(201,59,75);
     flex-grow: 8;
+    margin-bottom: 5px;
 }
 .inicio{
     color: rgb(201,59,75);
@@ -62,9 +64,12 @@ body{
 }
 
 .fotopersonal img{
-    width: 50%; /*ancho de la imagen*/
-    margin-left: 20px; /*Espacio entre la imagen y el contenido*/
-    text-align: right;
+    width: 650px; /*ancho de la imagen*/
+    height: 650px; /*alto de la imagen*/
+    margin-left: 800px; /*Espacio entre la imagen y el contenido*/
+    padding: 40px;
+    
+    
 }
 
 .hero h2{
@@ -80,17 +85,20 @@ body{
 .profesion h1{
     color:wheat;
     margin-left: 50px;
-    margin-bottom:35px ;
+    margin-bottom:35px;
+    font-size: 40px;
 }
-.nombre h1{
+.nombre h1{ /*CHRISTIAN CHAMIZO*/
     color: rgb(198,1,44);
     margin-left: 50px;
     margin-bottom: 35px;
+    font-size: 50px;
 }
 .parrafohero p{
  color: rgb(135,137,139);
  margin-left: 50px;
  margin-bottom: 35px;
+ 
 }
 
 
