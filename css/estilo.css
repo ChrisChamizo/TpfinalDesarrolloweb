@@ -23,19 +23,28 @@ header{
 header h1 /*mi nombre*/{
     color:rgb(238,239,240);
     flex-grow: 8;
-    font-size: 25px;
+    font-size: 30px;
+    margin-left: -550px;
     
 }
 header h2{ /*CC*/
     color: rgb(201,59,75);
     flex-grow: 8;
+    margin-left:150px
     
 }
-header div .button{
-    background-color: rgb(201,59,75);
-    flex-grow: 8;
-    margin-bottom: 5px;
+button{
+    background-color: inherit; /*Toma el color de fondo del
+    elmento padre*/
+    color:#fff;
+    border:none;
+    padding: 10px 20px;
+    cursor:pointer /*Al pasar el mouse por el boton aparece
+    la manito*/
+
 }
+    
+
 .inicio{
     color: rgb(201,59,75);
     flex-grow: 8;
@@ -43,8 +52,8 @@ header div .button{
 /*Termina el header*/
 
 body{
-    background-color:rgb(4,11,21);
-    color:#191919;
+    background-color:rgb(4,11,21); 
+    color:#fff;
     font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px;
     
@@ -71,7 +80,7 @@ body{
 .fotopersonal img{
     width: 650px; /*ancho de la imagen*/
     height: 650px; /*alto de la imagen*/
-    margin-left: 500px; /*Espacio entre la imagen y el contenido*/
+    margin-left: 550px; /*Espacio entre la imagen y el contenido*/
     padding: 40px;
     
     
@@ -103,6 +112,7 @@ body{
     margin-bottom: 35px;
     font-size: 80px;
     margin-right: 20px;
+    
    
    
 }
