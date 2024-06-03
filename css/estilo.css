@@ -39,9 +39,11 @@ button{
     elmento padre*/
     color:#fff;
     border:none;
+    margin-left: 5px;
     padding: 10px 20px;
     cursor:pointer /*Al pasar el mouse por el boton aparece
     la manito*/
+    
 
 }
     
@@ -92,7 +94,7 @@ body{
     color:white;
     padding-top: 5px;
     margin-bottom: 35px;
-    margin-left: 60px;
+    margin-left: -90px;
     font-size: 30px;
     text-align: center;
 }
@@ -102,20 +104,20 @@ body{
 }
 .profesion h1{ /*diseñador web*/
     color:wheat;
-    margin-left: 185px;
+    margin-left: 150px;
     margin-bottom:35px;
-    font-size: 15px;
-    margin-top: 50px;
+    font-size: 80px;
+    margin-top: 40px;
     text-align:center;
     
 }
 
 .nombre h1{ /*CHRISTIAN CHAMIZO*/
     color: rgb(198,1,44);
-    margin-left: 130px;
-    margin-bottom: 35px;
-    font-size: 100x;
-    margin-right: 20px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+    font-size: 80x;
+
     
    
    
@@ -125,7 +127,7 @@ body{
  margin-left: 100px;
  margin-bottom: 13px;
  font-size: 30px;
- margin-top: -30px;
+ margin-top: -350px;
  
  
 }
@@ -141,9 +143,8 @@ body{
 }
 .BotonContactame button{
     display: flex;
-    
+    border-width: 30px solid grey;
 }
-
 /*Se estila la segunda seccion*/
 
 .contenedor-hijo-directo {
@@ -173,7 +174,7 @@ body{
     margin-left: 40px;
     margin-bottom: 35px;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     text-decoration-line: underline;
     text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
@@ -210,9 +211,10 @@ body{
 /*Llamo a mi clase padre y le aplico el display flex*/
 
 .contenedor-listas{
-    /*display: flex;*/
+    display: flex;
     justify-content: space-around;
     align-items: center;
+    
     
     
 }
@@ -220,12 +222,15 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /*display: flex;/*
+    display: flex;
+    
     
 }
 .contenedor-listas ul,li{
     margin-bottom: 10px;
     list-style-type: none;
+
+    
     
 }
 
@@ -244,34 +249,45 @@ body{
 }
 .servicios{
     background-color: rgb(20,27,37);
-}
-.tipo-servicios i{
-    color: white;
-
-}
-.serviciouno h2{ /*Velocidad y optim*/
-    color:rgb(205,207,208);
-    font-size: 30px;
-    margin-bottom: 5px;
-    }
-.serviciodos h2{ /*Branding*/
-    color:rgb(205,207,208);
-    font-size: 30px;
-    margin-bottom: 5px;
+    text-align: center;
 }
 
-.serviciotres h2{ /*SEO & POSIC*/
-    color:rgb(205,207,208);
-    font-size: 30px;
-    margin-bottom: 5px;
-}
 
-.serviciouno,.serviciodos,.serviciotres{
+.tipo-de-servicios{
     color:white;
     margin-bottom: 35px;
-    font-size:20px;
+    font-size:40px;
     padding: 3px;
+    display: flex;
+    justify-content: center;
 }
+
+.tipo-de-servicios section{
+    flex: 1;
+    width: 200px;
+    padding: 20px;
+}
+.tipo-de-servicios section h2{ /*Titulos de los servicios*/
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.tipo-de-servicios section p{ /*Parrafos de los tipos de servicios*/
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  
+
+}
+.tipo-de-servicios i{ /*Iconos de los tipos de servicios*/
+    color: white;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+
+
 
 
 .resumen h3{
