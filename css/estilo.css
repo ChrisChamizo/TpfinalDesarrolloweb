@@ -254,7 +254,6 @@ body{
     
 }
 
-
 .tipo-de-servicios{
     color:white;
     margin-bottom: 35px;
@@ -292,9 +291,7 @@ body{
 
 
 
-
-
-.resumen h3{
+.titulo-resumen h1{
     color:rgb(205,207,208);
     font-size: 30px;
     margin-bottom: 5px;
@@ -303,32 +300,75 @@ body{
     margin-left: 40px;
     text-decoration-line: underline;
     text-decoration-color: rgb(114,9,40);
-    text-decoration-thickness: 3px;
-    
+    text-decoration-thickness: 3px; 
         
 }
+.titulo-resumen{
+    text-align: center;
+    padding: 30px;
+}
+
+.resumen{ /*Clase padre*/
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+
+
+.resumen section h2{
+    flex: 1; /*para que todas las secciones tengan el mismo ancho*/
+    margin-top: 10px;
+    color:white;
+    font-size: 30px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    width: 350px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(20,27,37);
+}
+
 .añocursada h2{
     color:white;
     font-size: 30px;
     margin-bottom: 15px;
     margin-left: 20px;
+    width: 80px;
+    position: relative; /*establece la posicion relativa para
+    poder posicionar los elementos*/
 }
+
+.estudios .carrera{
+    background-color: rgb(20,27,37);
+    padding: 20px;
+    border: 1px solid rgb(4,11,20);
+    border-radius: 5px;
+}
+
 .carrera p{
     font-weight: bold;
     color:white;
     font-size:20px ;
     margin-bottom: 15px;
     margin-left: 20px;
+    margin-top: 10px;
+    
+   
 }
 .skills h2{
     color:white;
-    font-size: 40px;
+    font-size: 30px;
     margin-bottom: 15px;
-    margin-left: 20px;
+    margin-left: 80px;
     border-radius: 10px;
-    border: 5px solid grey;
+
     margin: 20px;
 }
+
+
 .porfolio h2{
     color:rgb(205,207,208);
     font-size: 30px;
