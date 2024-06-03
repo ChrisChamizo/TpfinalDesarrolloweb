@@ -240,7 +240,7 @@ body{
     margin-left: 40px;
     margin-bottom: 35px;
     text-align: center;
-    font-size: 20px;
+    font-size: 40px;
     text-decoration-line: underline;
     text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
@@ -251,6 +251,7 @@ body{
     background-color: rgb(20,27,37);
     text-align: center;
     padding: 3px;
+    font-size: 40px;
     
 }
 
@@ -293,7 +294,7 @@ body{
 
 .titulo-resumen h1{
     color:rgb(205,207,208);
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 5px;
     text-align: center;
     padding-bottom: 20px;
@@ -387,36 +388,48 @@ body{
     margin-left: 30px;
 }
 
-
-.porfolio h2{
-    color:rgb(205,207,208);
-    font-size: 30px;
-    margin-bottom: 5px;
+.Contenedor-general-porfolio{ /*Clase padre*/
+    display: flex;
+    flex-direction: row;
     text-align: center;
-    padding-bottom: 20px;
-    margin-left: 40px;
+}
+.titulo-porfolio h1{
+    color:rgb(205,207,208);
+    font-size: 50px;
+    margin-bottom: 15px;
+     margin-left: 40px;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 15px;
     text-decoration-line: underline;
     text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
 
 }
+
+.screenshot-porfolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.screenshot-porfolio div{
+    margin-top: 40px;
+    text-align: start;
+    
+}
 .screenshot-porfolio img{
     margin-bottom: 30px;
-    text-align: center;
+    padding-left: 40px;
+    text-align: left;
     padding-bottom: 20px;
     margin-left: 40px;
+    margin: 0 10px;
     width: 1200px;
     height: 400px;
 
 }
-.link-porfolio a,p{
-    color:white;
-    font-size: 17px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin: 20px;
-    text-decoration-line: none;
-}
+
 .contacto h2{
     color:rgb(205,207,208);
     font-size: 30px;
