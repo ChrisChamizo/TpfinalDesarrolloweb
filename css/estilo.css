@@ -464,33 +464,60 @@ body{
 .datos-contacto ul,li,i{
     color:grey;
     font-size: 25px;
-    /*ver problema del icono mail y tel*/
+}
+.mapa-contacto iframe{
+   padding-left: 50px;
+   
 }
 
 /*Formulario*/
-/*Falta estilar form*/
-
-.formulario label{ /*Nombre*/
-    border: 2px solid rgb(14, 20, 28);
-    border-radius: 5px;
-    color:rgb(14,20,28);
+.formulario{ /*clase padre*/
+    width: 100%;
+    margin: 0;
     padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(20,27,36);
+    
+
+    
 }
-input[type=text]{
-    padding: 10px 20px;
-    margin: 10px;
+.formulario-nombre,.formulario-apellido,.formulario-asunto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+label{ /*label nombre, apellido,asunto*/
+    margin-bottom: 5px;
+    font-weight: bold;
     border: 2px solid rgb(14, 20, 28);
     border-radius: 5px;
-    color:rgb(14,20,28);
+    background-color: rgb(77,82,89);
+    padding: 20px;
+    margin-right: 10px;
+    flex: 1;
+}
+input[type=text],textarea{ /*input nombre, apellido,input*/
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
 
 }
 .formulario button{
     border:none;
-    padding: 15px 20px;
-    margin:15px;
-    font-size: small;
+    padding: 10px;
+    padding-top: 10px;
     border-radius: 5px; 
+    font-size: 25px;
+    width: 80%;
+    height: 80%;
+    text-align: center; 
+    color:rgb(183,183,183);
+}
+.formulario button:hover{
+    cursor: pointer;
     
+
+
 }
 .final h1{
     color:rgb(201, 59, 75);
