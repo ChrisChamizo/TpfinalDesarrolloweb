@@ -149,6 +149,8 @@ body{
 
 .contenedor-hijo-directo {
     /*display: flex;*/
+   
+
     
 }
     
@@ -159,7 +161,7 @@ body{
     flex-direction: column;
     flex:1; 
 }
-.Contenedor-imagen{
+.Contenedor-imagen img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -519,18 +521,43 @@ input[type=text],textarea{ /*input nombre, apellido,input*/
 
 
 }
-.final h1{
-    color:rgb(201, 59, 75);
+.footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-align: center;
+    background-color: #333;
+    color:white;
+    padding: 20px 0;
+}
+.nombre-iniciales-footer h1 { /*CC*/
+    color: rgb(201,59,75);
     flex-grow: 8;
-    font-size: 25px;
+    
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 10px; /*Espacio entre nombre e iniciales*/
 
+    
+    
 
 }
-.final h2{
-    color:rgb(246,247,247);
+.nombre-iniciales-footer h2{ /*Mi nombre*/
+    color:rgb(238,239,240);
+    flex-grow: 8;
+    font-size: 30px;
+    margin: 0;
     text-align: center;
-    font-size: 25px;
+    justify-content: center;
+   
+}
+.footer-iconos-copyright{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
 }
 .iconos-footer i{
     color: white;
@@ -540,5 +567,29 @@ input[type=text],textarea{ /*input nombre, apellido,input*/
     padding: 15px 15px;
     text-align: center;
     flex-grow: 8;
-    
+    text-decoration: none;
+}
+.iconos-footer a{ /*link de redireccionamiento*/
+    color:white;
+    margin:0 10px;
+    text-decoration: none;
+    font-size: x-large;
+}
+.iconos-footer a:hover{
+    cursor: pointer;
+   
+}
+.copyright{
+    font-size: 30px;
+    font-weight: bold;
+}
+.copyright i{
+    color: white;
+    margin-left: 24px;
+    margin-bottom: 35px;
+    font-size: x-large;
+    padding: 15px 15px;
+    text-align: center;
+    flex-grow: 8;
+    text-decoration: none;
 }
