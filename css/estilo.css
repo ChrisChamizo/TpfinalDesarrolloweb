@@ -478,9 +478,6 @@ body{
     padding: 20px;
     border-radius: 8px;
     background-color: rgb(20,27,36);
-    
-
-    
 }
 .formulario-nombre,.formulario-apellido,.formulario-asunto{
     display: flex;
@@ -516,7 +513,6 @@ input[type=text],textarea{ /*input nombre, apellido,input*/
 }
 .formulario button:hover{
     cursor: pointer;
-    
 
 
 }
@@ -538,9 +534,6 @@ input[type=text],textarea{ /*input nombre, apellido,input*/
     align-items: center;
     justify-content: center;
     gap: 10px; /*Espacio entre nombre e iniciales*/
-
-    
-    
 
 }
 .nombre-iniciales-footer h2{ /*Mi nombre*/
