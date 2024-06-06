@@ -470,6 +470,7 @@ body{
 .info-contacto ul{ /*Le doy estilo a la lista*/
     list-style: none;
     padding: 0;
+    margin-left: 200px;
 }
 .info-contacto li{ /*Le doy estilo a los elementos de la lista*/
     color:white;
@@ -479,12 +480,15 @@ body{
     margin: 20px;
     font-weight: bold;
 }
-.info-contacto ul,li,i{
+.info-contacto ul,li{
     color:grey;
     font-size: 25px;
+    
 }
-.mapa-contacto{
+.mapa-contacto iframe{
    padding-top:20px;
+   margin-left: 200px;
+   
    
    
 }
@@ -494,11 +498,12 @@ body{
     display: flex;
     flex-direction: column;
     width: 850px;
-    margin: 20px;
+    margin-left: 800px;
     padding: 20px;
     border-radius: 8px;
     color:rgb(20,27,36);
     align-items:  center;
+    justify-content: center;
 }
 
 .formulario-nombre,.formulario-apellido,.formulario-asunto{
@@ -507,9 +512,10 @@ body{
     justify-content: space-between;
     margin-bottom: 15px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 25px;
     color:#fff;
     border-radius: 5px;
+   
   
 }
 .formulario-asunto{
@@ -545,7 +551,7 @@ textarea:focus {
     color: #1a1a2e;
     border: none;
     background-color: #fff;
-    padding: 15px 20px;
+    padding: 15px 178px;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
@@ -567,9 +573,6 @@ button:hover .arrow {
 button:active .arrow {
     margin-left: 15px;
 }
-
-
-
 
 
 .footer{
