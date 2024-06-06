@@ -85,8 +85,6 @@ body{
     height: 650px; /*alto de la imagen*/
     margin-left: 550px; /*Espacio entre la imagen y el contenido*/
     padding: 40px;
-    
-    
 }
 
 .hero h2{ /*Hola, soy...*/
@@ -134,7 +132,6 @@ body{
     margin-bottom: 35px;
     font-size:30px;
     padding: 15px 15px;
-    
 }
 .BotonContactame{
     background-color: transparent; /*Color de fondo transparente*/
@@ -146,27 +143,10 @@ body{
     cursor: pointer;
     display: inline-flex; /*Alinear contenido en linea y centrar*/
     align-items: center;
-    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
-
+  
 }
 .BotonContactame .arrow{
     margin-left: 10px; /*Espacio entre texto y flecha*/
-    transition: margin-left 0.3s ease; /* Transición suave para la flecha */
-}
-.BotonContactame :hover{
-    background-color: white; /*fondo blanco al pasar el mouse*/
-    color:black; /*Texto negro al pasar el mouse*/
-}
-.BotonContactame:hover .arrow{
-    margin-left: 15px; /*Se mueve la flecha a la derecha al pasar el mouse*/
-}
-.btn-contacto:hover .arrow {
-    margin-left: 15px; /* Mover flecha a la derecha al pasar el cursor */
-}
-
-.btn-contacto:active {
-    background-color: #f0f0f0; /* Fondo gris claro al hacer clic */
-    color: black; /* Texto negro al hacer clic */
 }
 
 .btn-contacto:active .arrow {
@@ -174,12 +154,6 @@ body{
 }
 
 /*Se estila la segunda seccion*/
-
-/* Estilos para la sección "Sobre mí" */
-.sobre-mi {
-    padding: 20px;
-    background-color: rgb(16,19,36);
-}
 
 .contenedor-hijo-directo {
     display: flex;
@@ -216,9 +190,7 @@ body{
     width: 100px;
     height: 100px;
     border-radius: 5px;
-    
-    
-   
+
 }
 .fondo-rosa{
     background-color: rgb(211,0,45);
@@ -229,6 +201,12 @@ body{
     height: 450px;
     
 }
+/* Estilos para la sección "Sobre mí" */
+.sobre-mi {
+    padding: 20px;
+    background-color: rgb(16,19,36);
+}
+
 .sobre-mi h2 {
     padding: 20px;
     color: white;
@@ -330,8 +308,6 @@ body{
     margin-top: 10px;
 }
 
-
-
 .titulo-resumen h1{
     color:rgb(205,207,208);
     font-size: 40px;
@@ -356,8 +332,6 @@ body{
     flex-wrap: wrap;
     margin-top: 20px;
 }
-
-
 
 .resumen section h2{
     flex: 1; /*para que todas las secciones tengan el mismo ancho*/
@@ -390,7 +364,6 @@ body{
     padding-left: 5px;
     font-size: 10px;
     margin-bottom: 25px;
-    
 }
 
 .carrera p{
@@ -413,8 +386,7 @@ body{
     font-size: 10px;
     margin-bottom: 25x;
     margin-left: 30px;
-    
- 
+   
 }
 .tecnologias { /*Clase padre*/
     background-color: rgb(20,27,37);
@@ -478,7 +450,7 @@ body{
     color:black;
 }
 
-.titulo-contacto h2{
+.Titulo-form h1{
     color:rgb(205,207,208);
     font-size: 50px;
     margin-bottom: 5px;
@@ -489,11 +461,17 @@ body{
     text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
 }
-.datos-contacto ul{
+.datos-contacto{ /*section*/
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+    max-width: 120px;
+}
+.info-contacto ul{ /*Le doy estilo a la lista*/
     list-style: none;
     padding: 0;
 }
-.datos-contacto ul,li{
+.info-contacto li{ /*Le doy estilo a los elementos de la lista*/
     color:white;
     font-size: 23px;
     margin-bottom: 10px;
@@ -501,12 +479,13 @@ body{
     margin: 20px;
     font-weight: bold;
 }
-.datos-contacto ul,li,i{
+.info-contacto ul,li,i{
     color:grey;
     font-size: 25px;
 }
-.mapa-contacto iframe{
-   padding-left: 50px;
+.mapa-contacto{
+   padding-top:20px;
+   
    
 }
 
@@ -514,34 +493,32 @@ body{
 .formulario{ /*clase padre*/
     display: flex;
     flex-direction: column;
-    width: 100%;
-    margin: 0;
+    width: 850px;
+    margin: 20px;
     padding: 20px;
     border-radius: 8px;
-    background-color: rgb(20,27,36);
+    color:rgb(20,27,36);
+    align-items:  center;
 }
-.Titulo-form h1{
-    color:rgb(205,207,208);
-    font-size: 50px;
-    margin-bottom: 15px;
-     margin-left: 40px;
-    text-align: center;
-    padding-bottom: 25px;
-    padding-top: 15px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(114,9,40);
-    text-decoration-thickness: 3px;
 
-}
 .formulario-nombre,.formulario-apellido,.formulario-asunto{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 15px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 5px;
+  
+}
+.formulario-asunto{
+    width: 500px;
+    height: 100px;
 }
 
 input[type=text],textarea{ 
-    background-color: #1a1a2e;
+    background-color:#141b24;
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
@@ -552,7 +529,7 @@ input[type=text],textarea{
 
 
 textarea {
-    height: 100px;
+    height: 150px;
     width: 500px;
     
 }
@@ -564,7 +541,7 @@ textarea:focus {
 }
 
 
-.formulario button submit {
+.formulario button {
     color: #1a1a2e;
     border: none;
     background-color: #fff;
