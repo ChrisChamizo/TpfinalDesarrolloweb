@@ -135,15 +135,49 @@ body{
     padding: 15px 15px;
     
 }
-.BotonContactame button{
-    display: flex;
-    border-width: 30px solid grey;
+.BotonContactame{
+    background-color: transparent; /*Color de fondo transparente*/
+    color:white;
+    border:2px solid white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex; /*Alinear contenido en linea y centrar*/
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+
 }
+.BotonContactame .arrow{
+    margin-left: 10px; /*Espacio entre texto y flecha*/
+    transition: margin-left 0.3s ease; /* Transición suave para la flecha */
+}
+.BotonContactame :hover{
+    background-color: white; /*fondo blanco al pasar el mouse*/
+    color:black; /*Texto negro al pasar el mouse*/
+}
+.BotonContactame:hover .arrow{
+    margin-left: 15px; /*Se mueve la flecha a la derecha al pasar el mouse*/
+}
+.btn-contacto:hover .arrow {
+    margin-left: 15px; /* Mover flecha a la derecha al pasar el cursor */
+}
+
+.btn-contacto:active {
+    background-color: #f0f0f0; /* Fondo gris claro al hacer clic */
+    color: black; /* Texto negro al hacer clic */
+}
+
+.btn-contacto:active .arrow {
+    margin-left: 15px; /* Mantener flecha a la derecha al hacer clic */
+}
+
 /*Se estila la segunda seccion*/
 
 /* Estilos para la sección "Sobre mí" */
 .sobre-mi {
     padding: 20px;
+    background-color: rgb(16,19,36);
 }
 
 .contenedor-hijo-directo {
@@ -160,7 +194,9 @@ body{
 
 .contenedor-texto {
     margin-bottom: 20px;
+    
 }
+
 
 .contenedor-listas {
     display: flex;
@@ -209,15 +245,17 @@ body{
     font-size: 30px;
 }
 
-.highlight {
+ .highlight {
     color: #900824;
     padding: 2px 4px;
     border-radius: 5px;
+   
 }
+
 
 .contenedor-hijo-directo p {
     color: rgb(172, 173, 178);
-    margin: 15px;
+    margin-left: 25px;
     text-indent: 10px;
     text-align: left;
     color:rgb(159,161,167);
@@ -225,11 +263,13 @@ body{
 
 .contenedor-listas ul { /*le doy estilo a las listas*/
     list-style-type: none;
-    padding: 0;
+    padding: 5px;
 }
 
 .contenedor-listas ul li { /*le doy estilos a los elementos de la lista*/
     margin-bottom: 10px;
+    font-weight: bold;
+    color:wheat;
 }
 
 
