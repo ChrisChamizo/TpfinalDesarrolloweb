@@ -116,9 +116,6 @@ body{
     margin-bottom: 40px;
     font-size: 80x;
 
-    
-   
-   
 }
 .parrafohero p{
  color: rgb(135,137,139);
@@ -126,7 +123,6 @@ body{
  margin-bottom: 13px;
  font-size: 30px;
  margin-top: -350px;
- 
  
 }
 
@@ -154,11 +150,12 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap:wrap;
 }
 
 .contenedor-texto-imagen {
     flex: 1;
-    max-width: 60%;
+   
 }
 
 .contenedor-texto {
@@ -179,11 +176,22 @@ body{
 }
 
 .contenedor-imagen img {
-    width: 100%;
-    height: auto;
-    max-width: 400px;
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    
+    
+   
 }
-
+.fondo-rosa{
+    background-color: rgb(211,0,45);
+    padding: 40px;
+}
+.fondo-rosa img{
+    width: 450px;
+    height: 450px;
+    
+}
 .sobre-mi h2 {
     padding: 20px;
     color: white;
@@ -212,6 +220,7 @@ body{
     margin: 15px;
     text-indent: 10px;
     text-align: left;
+    color:rgb(159,161,167);
 }
 
 .contenedor-listas ul { /*le doy estilo a las listas*/
