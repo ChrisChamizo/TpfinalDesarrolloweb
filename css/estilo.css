@@ -136,8 +136,8 @@ body{
     margin-left: 135px;
     margin-bottom: 20px;
     font-size:25px;
-    padding: 3px;
-    
+    padding: 10px 20px;
+   
    
 }
 .boton-contactame{
@@ -150,6 +150,7 @@ body{
     cursor: pointer;
     display: inline-flex; /*Alinear contenido en linea y centrar*/
     align-items: center;
+    margin-left: 80px
   
 }
 .boton-contactame .arrow{
@@ -189,6 +190,7 @@ body{
 
 .contenedor-texto {
     margin-bottom: 20px;
+    
 }
 
 .contenedor-listas {
@@ -205,8 +207,8 @@ body{
 }
 
 .contenedor-imagen img {
-    width: 100px;
-    height: 100px;
+    width: 421px; /*ancho de la imagen*/
+    height: 409px;/*alto de la imagen*/
     border-radius: 5px;
 
 }
@@ -215,8 +217,8 @@ body{
     padding: 40px;
 }
 .fondo-rosa img{
-    width: 450px;
-    height: 450px;
+    width: 200px;
+    height: 200px;
     
 }
 /* Estilos para la sección "Sobre mí" */
@@ -235,13 +237,14 @@ body{
     text-decoration-line: underline;
     text-decoration-color: rgb(114, 9, 40);
     text-decoration-thickness: 3px;
-    border:1px solid green;
+    
 }
 
 .contenedor-hijo-directo h3 {
     color: white;
     margin-bottom: 35px;
     font-size: 30px;
+    margin-left: 95px;
 }
 
  .highlight {
@@ -254,31 +257,33 @@ body{
 
 .contenedor-hijo-directo p {
     color: rgb(172, 173, 178);
-    margin-left: 25px;
+    margin-left: 90px;
     text-indent: 10px;
     text-align: left;
     color:rgb(159,161,167);
+    margin-top: -15px;
 }
 .contenedor-texto-imagen hr{
     border:none;
     border-top: 3.5px solid #900824;
-    margin:20px 0;
+    margin-left: 20px;
     width: 30%;
-
-    
 }
 
 
 .contenedor-listas ul { /*le doy estilo a las listas*/
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
+    
 }
 
 .contenedor-listas ul li { /*le doy estilos a los elementos de la lista*/
-    margin-bottom: 10px;
+    margin-bottom: -5px;
+    margin-top: 15px;
+    margin-left: 80px;
     font-weight: bold;
     color:wheat;
-}
+}  
 
 
 .servicios h2{/*Servicios*/
