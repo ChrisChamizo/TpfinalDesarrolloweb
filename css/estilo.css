@@ -24,7 +24,7 @@ header{
 header h1 /*mi nombre*/{
     color:rgb(238,239,240);
     flex-grow: 8;
-    font-size: 30px;
+    font-size: 20px;
     margin-left: -3px;
     
 }
@@ -35,6 +35,7 @@ header h2{ /*CC*/
     
 }
 button{
+    font-size: 15px;
     background-color: inherit; /*Toma el color de fondo del
     elmento padre*/
     color:#fff;
@@ -43,6 +44,7 @@ button{
     padding: 10px 20px;
     cursor:pointer /*Al pasar el mouse por el boton aparece
     la manito*/
+    
 
 }
     
@@ -50,6 +52,7 @@ button{
 .inicio{
     color: rgb(201,59,75);
     flex-grow: 8;
+
 }    
 /*Termina el header*/
 
@@ -63,7 +66,7 @@ body{
 
 .hero{
     display: flex; 
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     height: 100vh;
 
@@ -81,9 +84,9 @@ body{
 
 
 .fotopersonal img{
-    width: 650px; /*ancho de la imagen*/
-    height: 650px; /*alto de la imagen*/
-    margin-left: 550px; /*Espacio entre la imagen y el contenido*/
+    width: 421px; /*ancho de la imagen*/
+    height: 409px; /*alto de la imagen*/
+    margin-left: 100px; /*Espacio entre la imagen y el contenido*/
     padding: 40px;
 }
 
@@ -91,49 +94,53 @@ body{
     color:white;
     padding-top: 5px;
     margin-bottom: 35px;
-    margin-left: -90px;
+    margin-left: 30px;
     font-size: 30px;
-    text-align: center;
+    text-align: left;
 }
 
 .hero i{
     color:rgb(186,139,36);
 }
 .profesion h1{ /*diseñador web*/
-    color:wheat;
-    margin-left: 150px;
-    margin-bottom:35px;
-    font-size: 80px;
-    margin-top: 40px;
+    color:rgb(198, 1, 44);
+    margin-left: 100px;
+    margin-bottom:10px;
+    font-size: 50px;
+    margin-top: 0px;
     text-align:center;
     
 }
 
 .nombre h1{ /*CHRISTIAN CHAMIZO*/
     color: rgb(198,1,44);
-    margin-left: 150px;
-    margin-bottom: 40px;
-    font-size: 80x;
+    margin-left: -3px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    text-align: center;
+    
 
 }
-.parrafohero p{
+.parrafo-hero p{
  color: rgb(135,137,139);
- margin-left: 100px;
- margin-bottom: 13px;
- font-size: 30px;
- margin-top: -350px;
- 
+ margin-left: 160px; /*Alinea el margen izquierdo con el resto del contenido*/
+ margin-bottom: 20px; /*Ajusta el margen inferior para el espacio adecuado*/
+ font-size: 20px; /*Tamaño de fuente mas chico*/
+ margin-top: -200px; /*Ajusta el margen superior para la posicion correcta*/
+ text-align:left;
+
 }
 
-
-.iconosredes i{
+.iconos-redes i{
     color: white;
-    margin-left: 90px;
-    margin-bottom: 35px;
-    font-size:30px;
-    padding: 15px 15px;
+    margin-left: 135px;
+    margin-bottom: 20px;
+    font-size:25px;
+    padding: 3px;
+    
+   
 }
-.BotonContactame{
+.boton-contactame{
     background-color: transparent; /*Color de fondo transparente*/
     color:white;
     border:2px solid white;
@@ -145,12 +152,25 @@ body{
     align-items: center;
   
 }
-.BotonContactame .arrow{
+.boton-contactame .arrow{
     margin-left: 10px; /*Espacio entre texto y flecha*/
 }
 
-.btn-contacto:active .arrow {
-    margin-left: 15px; /* Mantener flecha a la derecha al hacer clic */
+.boton-porfolio{
+    background-color: transparent; /*Color de fondo transparente*/
+    color:white;
+    border:2px solid white;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-flex; /*Alinear contenido en linea y centrar*/
+    align-items: center;
+    
+  
+}
+.boton-porfolio .arrow{
+    margin-left: 10px; /*Espacio entre texto y flecha*/
 }
 
 /*Se estila la segunda seccion*/
@@ -169,9 +189,7 @@ body{
 
 .contenedor-texto {
     margin-bottom: 20px;
-    
 }
-
 
 .contenedor-listas {
     display: flex;
@@ -205,6 +223,7 @@ body{
 .sobre-mi {
     padding: 20px;
     background-color: rgb(16,19,36);
+    border: 1px solid brown;
 }
 
 .sobre-mi h2 {
@@ -216,6 +235,7 @@ body{
     text-decoration-line: underline;
     text-decoration-color: rgb(114, 9, 40);
     text-decoration-thickness: 3px;
+    border:1px solid green;
 }
 
 .contenedor-hijo-directo h3 {
@@ -239,6 +259,15 @@ body{
     text-align: left;
     color:rgb(159,161,167);
 }
+.contenedor-texto-imagen hr{
+    border:none;
+    border-top: 3.5px solid #900824;
+    margin:20px 0;
+    width: 30%;
+
+    
+}
+
 
 .contenedor-listas ul { /*le doy estilo a las listas*/
     list-style-type: none;
@@ -253,7 +282,7 @@ body{
 
 
 .servicios h2{/*Servicios*/
-    padding-bottom: px;
+    padding-bottom: 5px;
     color:rgb(233,233,233);
     margin-left: 40px;
     margin-bottom: 35px;
@@ -265,13 +294,18 @@ body{
     /*Falta terminar*/
 
 }
+
+
+
 .servicios{
     background-color: rgb(20,27,37);
     text-align: center;
     padding: 3px;
     font-size: 40px;
-    
 }
+
+
+
 
 .tipo-de-servicios{
     color:white;
@@ -488,9 +522,7 @@ body{
 .mapa-contacto iframe{
    padding-top:20px;
    margin-left: 200px;
-   
-   
-   
+
 }
 
 /*Formulario*/
