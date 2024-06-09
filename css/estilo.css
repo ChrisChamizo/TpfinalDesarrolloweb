@@ -47,7 +47,6 @@ button{
     
 
 }
-    
 
 .inicio{
     color: rgb(201,59,75);
@@ -82,7 +81,6 @@ body{
 
 }
 
-
 .fotopersonal img{
     width: 421px; /*ancho de la imagen*/
     height: 409px; /*alto de la imagen*/
@@ -96,7 +94,7 @@ body{
     margin-bottom: 35px;
     margin-left: 30px;
     font-size: 30px;
-    text-align: left;
+    text-align: center;
 }
 
 .hero i{
@@ -114,7 +112,6 @@ body{
 
 .nombre h1{ /*CHRISTIAN CHAMIZO*/
     color: rgb(198,1,44);
-    margin-left: -3px;
     margin-bottom: 20px;
     font-size: 50px;
     text-align: center;
@@ -128,18 +125,23 @@ body{
  font-size: 20px; /*Tamaño de fuente mas chico*/
  margin-top: -200px; /*Ajusta el margen superior para la posicion correcta*/
  text-align:left;
+}
 
+.iconos-redes{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: -880px;
+    
 }
 
 .iconos-redes i{
     color: white;
-    margin-left: 135px;
-    margin-bottom: 20px;
-    font-size:25px;
-    padding: 10px 20px;
-   
-   
+    margin:0 10px;
+    font-size: 24px;
+    
 }
+
 .boton-contactame{
     background-color: transparent; /*Color de fondo transparente*/
     color:white;
@@ -598,88 +600,84 @@ textarea:focus {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    
 }
 
 button .arrow {
     margin-left: 10px;
-    transition: margin-left 0.3s ease;
+   
 }
 
-button:hover .arrow {
-    margin-left: 15px;
-}
-
-button:active .arrow {
-    margin-left: 15px;
-}
 
 .footer{
     display: flex;
     flex-direction: column;
     text-align: center;
     text-align: center;
-    background-color: #333;
+    background-color: #0b0d17;
     color:white;
     padding: 20px 0;
 }
-.nombre-iniciales-footer h1 { /*CC*/
-    color: rgb(201,59,75);
-    flex-grow: 8;
-    
-    padding-top: 80px;
+
+.footer-iniciales-nombre .div{
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    gap: 10px; /*Espacio entre nombre e iniciales*/
+    align-items: center;
+    
+}
+.footer-iniciales-nombre h1 { /*CC*/
+    color:white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    
+    
 
 }
-.nombre-iniciales-footer h2{ /*Mi nombre*/
-    color:rgb(238,239,240);
-    flex-grow: 8;
-    font-size: 30px;
+.footer-iniciales-nombre h2{ /*Mi nombre*/
+    color: rgb(201,59,75); 
+    font-size: 48px; 
     margin: 0;
-    text-align: center;
-    justify-content: center;
-   
+    padding: 0;
+    
 }
+
 .footer-iconos-copyright{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+   
 }
+.iconos-footer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
 .iconos-footer i{
     color: white;
-    margin-left: 24px;
-    margin-bottom: 35px;
-    font-size: x-large;
-    padding: 15px 15px;
-    text-align: center;
-    flex-grow: 8;
-    text-decoration: none;
+    margin:0 15px;
+    font-size: 24px;
 }
 .iconos-footer a{ /*link de redireccionamiento*/
     color:white;
-    margin:0 10px;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 24px;
 }
 .iconos-footer a:hover{
     cursor: pointer;
-   
 }
+
 .copyright{
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-align: center;
 }
 .copyright i{
-    color: white;
-    margin-left: 24px;
-    margin-bottom: 35px;
-    font-size: x-large;
-    padding: 15px 15px;
-    text-align: center;
-    flex-grow: 8;
-    text-decoration: none;
+    font-size: 14px;
+    font-weight: normal;
+    
 }
