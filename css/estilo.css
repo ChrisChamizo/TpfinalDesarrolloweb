@@ -132,7 +132,6 @@ body{
     justify-content: center;
     margin-top: 20px;
     margin-left: -880px;
-    
 }
 
 .iconos-redes i{
@@ -212,6 +211,9 @@ body{
     width: 421px; /*ancho de la imagen*/
     height: 409px;/*alto de la imagen*/
     border-radius: 5px;
+    position: relative;
+    left: -55px;
+  
 
 }
 .fondo-rosa{
@@ -221,6 +223,7 @@ body{
 .fondo-rosa img{
     width: 200px;
     height: 200px;
+   
     
 }
 /* Estilos para la sección "Sobre mí" */
@@ -580,7 +583,6 @@ textarea {
     height: 150px;
     width: 500px;
     margin-top: -20px;
-    
 }
 
 input[type="text"]:focus,
