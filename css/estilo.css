@@ -355,17 +355,13 @@ body{
     text-decoration-thickness: 3px; 
         
 }
-.titulo-resumen{
-    text-align: center;
-    padding: 30px;
-}
+
 
 .resumen{ /*Clase padre*/
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-wrap: wrap;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
    
 }
 
@@ -381,68 +377,110 @@ body{
     border-radius: 5px;
     background-color: rgb(20,27,37);
 }
-
+.añocursada{
+    text-align: center;
+    margin-left: -500px;
+}
 .añocursada h2{
     color:white;
-    font-size: 10px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 5px;
     margin-left: 20px;
-    width: 80px;
+    width: 50px;
     position: relative; /*establece la posicion relativa para
     poder posicionar los elementos*/
 }
 
-.estudios .carrera{
+.estudios-carrera{
     background-color: rgb(20,27,37);
     padding: 15px;
     border: 1px solid rgb(4,11,20);
     border-radius: 5px;
     padding-left: 5px;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 25px;
+   
 }
 
-.carrera p{
+.estudios-carrera p{
     font-weight: bold;
     color:white;
-    font-size:20px ;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin-top: 10px;
+    font-size:15px;
+    margin:5px ;
+    padding: 10px;
    
 }
-
-.skills{ /*Clase padre*/
-    background-color: rgb(20,27,37);
-    color:white;
+.contenedor-principal { /*Clase padre*/
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: -390px;
+    width: 40%;
     padding: 20px;
-    border: 1px solid rgb(4,11,20);
+    background-color: rgb(20,27,36);
+    color: white;
     border-radius: 5px;
-    padding-left: 5px;
-    font-size: 20px;
-    margin-bottom: 15px;
-    margin-left: 20px;
-    margin-top: 10px;
+}
+
+.habilidades-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /*Espacio entre el texto y las habilidades*/
+}
+
+.habilidades-container section{
+    width: 100%; /*Ajusto el ancho de las habilidades*/
+}
    
+.skills {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.habilidades {
+    margin-top: 10px;
+    
+}
+
+.barra-habilidad {
+    margin: 20px 0;
+}
+
+.barra {
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 20px;
+    background-color:rgb(210,0,44);
+    border-radius: 20px;
+    text-align: right;
+    padding-right: 10px;
+    color: white;
+    line-height: 20px; /* Aligns text in the center vertically */
 }
 
    
 .tecnologias { /*Clase padre*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: rgb(20,27,37);
     color:white;
-    padding: 5px 0px;
-    border: 1px solid rgb(4,11,20);
     border-radius: 5px;
     font-size: 10px;
-    margin-bottom: 30px;
-    margin-left: 30px;
+    margin-top: 20px;
+    text-align: left;
+    width: 40%;
+    margin-left: -400px;
+   
 }
 
-.Contenedor-general-porfolio{ /*Clase padre*/
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-}
+
 .titulo-porfolio h1{
     color:rgb(205,207,208);
     font-size: 25px;
@@ -455,6 +493,11 @@ body{
     text-decoration-color: rgb(114,9,40);
     text-decoration-thickness: 3px;
 
+}
+.Contenedor-general-porfolio{ /*Clase padre*/
+    display: flex;
+    flex-direction: row;
+    text-align: center;
 }
 
 .screenshot-porfolio{
