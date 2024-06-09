@@ -150,7 +150,7 @@ body{
     cursor: pointer;
     display: inline-flex; /*Alinear contenido en linea y centrar*/
     align-items: center;
-    margin-left: 80px
+    margin-left: 80px;
   
 }
 .boton-contactame .arrow{
@@ -233,7 +233,7 @@ body{
     color: white;
     margin-bottom: 35px;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration-line: underline;
     text-decoration-color: rgb(114, 9, 40);
     text-decoration-thickness: 3px;
@@ -254,7 +254,6 @@ body{
    
 }
 
-
 .contenedor-hijo-directo p {
     color: rgb(172, 173, 178);
     margin-left: 90px;
@@ -274,6 +273,7 @@ body{
 .contenedor-listas ul { /*le doy estilo a las listas*/
     list-style-type: none;
     padding: 10px;
+   
     
 }
 
@@ -292,31 +292,25 @@ body{
     margin-left: 40px;
     margin-bottom: 35px;
     text-align: center;
-    font-size: 40px;
+    font-size: 25px;
     text-decoration-line: underline;
     text-decoration-color: rgb(114,9,40);
-    text-decoration-thickness: 3px;
+    
     /*Falta terminar*/
 
 }
-
-
-
 .servicios{
     background-color: rgb(20,27,37);
     text-align: center;
     padding: 3px;
-    font-size: 40px;
+    font-size: 25px;
 }
-
-
-
 
 .tipo-de-servicios{
     color:white;
     margin-bottom: 35px;
-    font-size:40px;
-    padding: 3px;
+    font-size:20px;
+    padding: 10px 20px;
     display: flex;
     justify-content: center;
     background-color: rgb(20,27,37);
@@ -331,13 +325,14 @@ body{
 .tipo-de-servicios section h2{ /*Titulos de los servicios*/
     margin-top: 10px;
     margin-left: 60px;
+    font-size: 20px;
 }
 
 .tipo-de-servicios section p{ /*Parrafos de los tipos de servicios*/
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 60px;
     margin-bottom: 10px;
-    font-size: 25px;
+    font-size: 20px;
   
 
 }
@@ -345,11 +340,12 @@ body{
     color: white;
     margin-left: 60px;
     margin-top: 10px;
+ 
 }
 
 .titulo-resumen h1{
     color:rgb(205,207,208);
-    font-size: 40px;
+    font-size: 25px;
     margin-bottom: 5px;
     text-align: center;
     padding-bottom: 20px;
@@ -370,24 +366,25 @@ body{
     align-items: flex-start;
     flex-wrap: wrap;
     margin-top: 20px;
+   
 }
 
 .resumen section h2{
     flex: 1; /*para que todas las secciones tengan el mismo ancho*/
     margin-top: 10px;
     color:white;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 15px;
     margin-left: 20px;
     width: 350px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 5px;
     background-color: rgb(20,27,37);
 }
 
 .añocursada h2{
     color:white;
-    font-size: 30px;
+    font-size: 10px;
     margin-bottom: 15px;
     margin-left: 20px;
     width: 80px;
@@ -397,7 +394,7 @@ body{
 
 .estudios .carrera{
     background-color: rgb(20,27,37);
-    padding: 20px;
+    padding: 15px;
     border: 1px solid rgb(4,11,20);
     border-radius: 5px;
     padding-left: 5px;
@@ -422,20 +419,22 @@ body{
     border: 1px solid rgb(4,11,20);
     border-radius: 5px;
     padding-left: 5px;
-    font-size: 10px;
-    margin-bottom: 25x;
-    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-top: 10px;
    
 }
+
+   
 .tecnologias { /*Clase padre*/
     background-color: rgb(20,27,37);
     color:white;
-    padding: 20px;
+    padding: 5px 0px;
     border: 1px solid rgb(4,11,20);
     border-radius: 5px;
-    padding-left: 5px;
     font-size: 10px;
-    margin-bottom: 25x;
+    margin-bottom: 30px;
     margin-left: 30px;
 }
 
@@ -446,7 +445,7 @@ body{
 }
 .titulo-porfolio h1{
     color:rgb(205,207,208);
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 15px;
      margin-left: 40px;
     text-align: center;
@@ -484,6 +483,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     margin-left: 25px;
+    font-size: 15px;
 }
 .link-porfolio a:hover{ 
     color:black;
@@ -491,7 +491,7 @@ body{
 
 .Titulo-form h1{
     color:rgb(205,207,208);
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 5px;
     text-align: center;
     padding-bottom: 20px;
@@ -535,29 +535,30 @@ body{
     display: flex;
     flex-direction: column;
     width: 850px;
-    margin-left: 800px;
-    padding: 20px;
-    border-radius: 8px;
+    margin:0;
+     padding: 20px;
+    margin-left: 150px;
+    border-radius: 5px;
     color:rgb(20,27,36);
     align-items:  center;
     justify-content: center;
 }
 
-.formulario-nombre,.formulario-apellido,.formulario-asunto{
-    display: inline-flex;
+.div .formulario-nombre-apellido{
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 15px;
-    padding: 10px;
-    font-size: 25px;
+    padding: 10px 20px; 
+    font-size: 20px;
     color:#fff;
     border-radius: 5px;
-   
-  
 }
-.formulario-asunto{
-    width: 500px;
-    height: 100px;
+.formulario-asunto input{
+    width: 88%;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(20,27,36);
 }
 
 input[type=text],textarea{ 
@@ -565,15 +566,15 @@ input[type=text],textarea{
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     color: #fff;
     font-size: 16px;
 }
 
-
 textarea {
     height: 150px;
     width: 500px;
+    margin-top: -20px;
     
 }
 
@@ -582,7 +583,6 @@ textarea:focus {
     outline: none;
     border-color: #007bff;
 }
-
 
 .formulario button {
     color: #1a1a2e;
