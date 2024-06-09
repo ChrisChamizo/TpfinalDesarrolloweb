@@ -92,7 +92,7 @@ body{
     color:white;
     padding-top: 5px;
     margin-bottom: 35px;
-    margin-left: 30px;
+    margin-left: -40px;
     font-size: 30px;
     text-align: center;
 }
@@ -609,77 +609,71 @@ button .arrow {
     margin-left: 10px;
    
 }
-
-
-.footer{
+.footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    text-align: center;
+    align-items: center; /* Centra todos los elementos horizontalmente */
     background-color: #0b0d17;
-    color:white;
+    color: white;
     padding: 20px 0;
 }
 
-.footer-iniciales-nombre .div{
+.footer-iniciales-nombre {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+    flex-direction: row; /* Coloca las iniciales y el nombre en una fila */
+    align-items: center; /* Centra verticalmente */
+    gap: 10px; /* Espacio entre las iniciales y el nombre */
 }
-.footer-iniciales-nombre h1 { /*CC*/
-    color:white;
+
+.footer-iniciales-nombre h1 { /* Nombre */
+    color: white;
     font-size: 20px;
     margin: 0;
     padding: 0;
-    
-    
-
 }
-.footer-iniciales-nombre h2{ /*Mi nombre*/
-    color: rgb(201,59,75); 
-    font-size: 48px; 
+
+.footer-iniciales-nombre h2 { /* Iniciales */
+    color: rgb(201, 59, 75);
+    font-size: 48px;
     margin: 0;
     padding: 0;
-    
 }
 
-.footer-iconos-copyright{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-   
+.footer-iconos {
+    margin-top: 20px; /* Espacio entre el nombre y los iconos */
 }
-.iconos-footer{
+
+.iconos-footer {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
-.iconos-footer i{
+.iconos-footer i {
     color: white;
-    margin:0 15px;
+    margin: 0 15px;
     font-size: 24px;
 }
-.iconos-footer a{ /*link de redireccionamiento*/
-    color:white;
+
+.iconos-footer a { /* Link de redireccionamiento */
+    color: white;
     text-decoration: none;
     font-size: 24px;
 }
-.iconos-footer a:hover{
+
+.iconos-footer a:hover {
     cursor: pointer;
+    color: rgb(201, 59, 75); /* Cambio de color en hover para mejor visualización */
 }
 
-.copyright{
+.copyright {
     font-size: 14px;
     font-weight: normal;
-    margin-top: 20px;
+    margin-top: 20px; /* Espacio entre los iconos y el copyright */
     text-align: center;
 }
-.copyright i{
+
+.copyright i {
     font-size: 14px;
     font-weight: normal;
-    
 }
