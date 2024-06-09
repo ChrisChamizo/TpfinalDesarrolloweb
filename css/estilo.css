@@ -510,14 +510,16 @@ body{
     list-style: none;
     padding: 0;
     margin-left: 200px;
+    
 }
 .info-contacto li{ /*Le doy estilo a los elementos de la lista*/
-    color:white;
-    font-size: 23px;
+    color:#6d7278;
+    font-size: 20px;
     margin-bottom: 10px;
     margin-left: 20px;
     margin: 20px;
     font-weight: bold;
+    
 }
 .info-contacto ul,li{
     color:grey;
@@ -553,6 +555,7 @@ body{
     font-size: 20px;
     color:#fff;
     border-radius: 5px;
+    
 }
 .formulario-asunto input{
     width: 88%;
@@ -610,7 +613,6 @@ button:hover .arrow {
 button:active .arrow {
     margin-left: 15px;
 }
-
 
 .footer{
     display: flex;
