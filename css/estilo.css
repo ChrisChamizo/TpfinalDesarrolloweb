@@ -450,14 +450,14 @@ body{
 .barra {
     width: 100%;
     background-color: #f1f1f1;
-    border-radius: 20px;
+    border-radius:0;
     overflow: hidden;
 }
 
 .progreso {
     height: 20px;
     background-color:rgb(210,0,44);
-    border-radius: 20px;
+    border-radius: 0px;
     text-align: right;
     padding-right: 10px;
     color: white;
