@@ -1,5 +1,39 @@
+/*primero identifico los elementos del diseño que deben ajustarse a cada resolucion de
+pantalla*/
+
 @media(max-width:1440px){
     /*Llamo al selector que nesesito que tenga esta resolucion*/
+    header h1{
+        font-size: 18px;
+    }
+    
+    .fotopersonal img{
+        width: 350px;
+        height: 340px;
+        margin-left: 150px;
+    }
+
+    .parrafo-hero p{
+        margin-left: 120px;
+        font-size: 18px;
+    }
+    .iconos-redes{
+        margin-left: -450px;
+    }
+    .contenedor-imagen img{
+        width: 350px;
+        height: 340px;
+    }
+    .titulo-resumen h1{
+        margin-left: 530px;
+    }
+    .titulo-porfolio h1, .Titulo-form h1{
+        margin-left: 580px;
+    }
+    .formulario{
+        width: 750px;
+        margin-left: 100px;
+    }
 }
 @media(max-width:1024px){
 
@@ -8,5 +42,5 @@
 
 }
 @media(max-width:480px){
-    
+
 }
