@@ -15,6 +15,6 @@ La página está dividida en seis secciones:
 
 <b>Tecnologías utilizadas:</b>
 
-El desarrollo del portafolio se realizó utilizando HTML y CSS, asegurando que la página sea responsiva y se adapte adecuadamente a diferentes tamaños de pantalla, ya sean celulares, tabletas o computadoras de escritorio.
+El desarrollo del portafolio se realizó utilizando HTML y CSS pero NO SE IMPLEMENTO EL RESPONSIVE en el porfolio.
 
 Si desea ver la página web creada, haga clic aquí.
