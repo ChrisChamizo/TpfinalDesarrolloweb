@@ -225,20 +225,24 @@ body{
 .sobre-mi {
     padding: 20px;
     background-color: rgb(16,19,36);
+    text-align: center;
+    
     
 }
 
 .sobre-mi h2 {
-    padding: 20px;
-    color: white;
+    color: rgb(233,233,233);
+    margin-left: 40px;
     margin-bottom: 35px;
     text-align: center;
     font-size: 25px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(114, 9, 40);
-    text-decoration-thickness: 3px;
-    
-}
+    border-bottom: 3px solid rgb(114,9,40);
+    padding-bottom: 8px; /* Ajusta el espacio debajo del texto */
+    display: inline-block; /* Esto hará que el ancho sea del tamaño del contenido */
+    }
+
+
+
 
 .contenedor-hijo-directo h3 {
     color: white;
@@ -262,19 +266,19 @@ body{
     color:rgb(159,161,167);
     margin-top: -15px;
 }
-.contenedor-texto-imagen hr{
-    border:none;
-    border-top: 3.5px solid #900824;
-    margin-left: 20px;
-    width: 30%;
+.contenedor-texto-imagen h3{
+    text-align: left;
+    border-bottom: 3px solid rgb(114,9,40);
+    padding-bottom: 8px; /* Ajusta el espacio debajo del texto */
+    display: inline-block;
+     /* Esto hará que el ancho sea del tamaño del contenido */
+     
 }
 
 
 .contenedor-listas ul { /*le doy estilo a las listas*/
     list-style-type: none;
     padding: 10px;
-   
-    
 }
 
 .contenedor-listas ul li { /*le doy estilos a los elementos de la lista*/
@@ -287,18 +291,17 @@ body{
 
 
 .servicios h2{/*Servicios*/
-    padding-bottom: 5px;
-    color:rgb(233,233,233);
+    color: rgb(233,233,233);
     margin-left: 40px;
     margin-bottom: 35px;
     text-align: center;
     font-size: 25px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(114,9,40);
+    border-bottom: 3px solid rgb(114,9,40);
+    padding-bottom: 8px; /* Ajusta el espacio debajo del texto */
+    display: inline-block; /* Esto hará que el ancho sea del tamaño del contenido */
+    }
     
-    /*Falta terminar*/
 
-}
 .servicios{
     background-color: rgb(20,27,37);
     text-align: center;
@@ -344,16 +347,15 @@ body{
 }
 
 .titulo-resumen h1{
-    color:rgb(205,207,208);
+    color: rgb(233,233,233);
+    margin-bottom: 35px;
+    margin-left: 630px;
+    text-align:center;
     font-size: 25px;
-    margin-bottom: 5px;
-    text-align: center;
-    padding-bottom: 20px;
-    margin-left: 40px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(114,9,40);
-    text-decoration-thickness: 3px; 
-        
+    border-bottom: 3px solid rgb(198,1,44);
+    padding-bottom: 8px;
+    display: inline-block;
+    
 }
 
 
@@ -362,7 +364,6 @@ body{
     flex-direction: column;
     align-items: center;
     padding: 15px;
-   
 }
 
 .resumen section h2{
@@ -485,14 +486,14 @@ body{
     color:rgb(205,207,208);
     font-size: 25px;
     margin-bottom: 15px;
-     margin-left: 40px;
+     margin-left: 660px;
     text-align: center;
-    padding-bottom: 25px;
-    padding-top: 15px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(114,9,40);
-    text-decoration-thickness: 3px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+    border-bottom: 3px solid rgb(114,9,40);
+    display: inline-block;
 
+   
 }
 .Contenedor-general-porfolio{ /*Clase padre*/
     display: flex;
@@ -535,13 +536,14 @@ body{
 .Titulo-form h1{
     color:rgb(205,207,208);
     font-size: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+     margin-left: 660px;
     text-align: center;
-    padding-bottom: 20px;
-    margin-left: 40px;
-    text-decoration-line: underline;
-    text-decoration-color: rgb(114,9,40);
-    text-decoration-thickness: 3px;
+    padding-bottom: 8px;
+    padding-top: 20px;
+    border-bottom: 3px solid rgb(114,9,40);
+    display: inline-block;
+
 }
 .datos-contacto{ /*section*/
     display: flex;
@@ -653,7 +655,7 @@ button .arrow {
     align-items: center; /* Centra todos los elementos horizontalmente */
     background-color: #0b0d17;
     color: white;
-    padding: 20px 0;
+    padding-bottom: -5px;
 }
 
 .footer-iniciales-nombre {
