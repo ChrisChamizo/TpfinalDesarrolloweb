@@ -17,4 +17,4 @@ La página está dividida en seis secciones:
 
 El desarrollo del portafolio se realizó utilizando HTML y CSS pero NO SE IMPLEMENTO EL RESPONSIVE en el porfolio.
 
-Si desea ver la página web creada, haga clic aquí.
+Si desea ver la página web creada, <a href="https://chrischamizo.github.io/TpfinalDesarrolloweb/">Haga click aqui</a>.
