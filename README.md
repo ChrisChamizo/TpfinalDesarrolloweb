@@ -15,6 +15,6 @@ La página está dividida en seis secciones:
 
 <b>Tecnologías utilizadas:</b>
 
-El desarrollo del portafolio se realizó utilizando HTML y CSS pero NO SE IMPLEMENTO EL RESPONSIVE en el porfolio.
+El desarrollo del portafolio se realizó utilizando HTML y CSS pero NO SE IMPLEMENTO EL RESPONSIVE en el portafolio.
 
 Si desea ver la página web creada, <a href="https://chrischamizo.github.io/TpfinalDesarrolloweb/">Haga click aqui</a>.
